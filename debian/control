@@ -1,0 +1,15 @@
+Source: krypton-modem-image
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Section: misc
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               curl,
+               tar,
+Standards-Version: 4.7
+Vcs-Browser: https://github.com/furilabs/krypton-modem-image
+Vcs-Git: https://github.com/furilabs/krypton-modem-image.git
+
+Package: krypton-modem-image
+Architecture: arm64
+Depends: ${misc:Depends}
+Description: Modem image for krypton
