@@ -12,4 +12,6 @@ Vcs-Git: https://github.com/furilabs/krypton-modem-image.git
 Package: krypton-modem-image
 Architecture: arm64
 Depends: ${misc:Depends}
+Provides: device-modem-image
+Conflicts: device-modem-image
 Description: Modem image for krypton
